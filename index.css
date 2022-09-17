@@ -1,7 +1,7 @@
 /* genaral settings */
 body 
 {
-    background-color: #F8F8FF;
+    background-color: white;
 }
 
 /* header section */
@@ -79,7 +79,7 @@ i
 /* swiper section */
 .swiper
 {
-  background-color: #F8F8FF;
+  background-color: white;
   width: 90%;
   height: 100%;
 }
