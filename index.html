@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- css file -->
+    <link rel="stylesheet" href="index.css">
+    <!-- font awesome icon cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="lib/swiper-bundle.min.css"/>
+    <!-- title of the page -->
+    <title>Emploi Dakar : Offre d'Emploi au Sénégal - Offre d'Emploi à Dakar</title>
+  </head>
+  <body>
+    <!-- header section-->
+    <div id="header">
+      <!-- top bar -->
+      <div class="container-fluid top-bar">
+        <div class="row d-md-block d-none"> 
+          <div class="col-lg-11 col-sm-12 d-flex flex-lg-row justify-content-end p-1">
+            <small class="border-end pe-3">
+              <a href="#">Tarifs de publications</a>
+            </small>
+            <small class="ps-3 me-3">
+              <a href="#">Rédaction de CV Professionnel</a>
+            </small>
+            <small class="ms-3">
+              <i class="fa-brands fa-square-facebook me-2"></i>
+              <i class="fa-brands fa-instagram me-2"></i>
+              <i class="fa-brands fa-twitter me-2"></i>
+              <i class="fa-regular fa-envelope me-2"></i>
+              <i class="fa-brands fa-linkedin me-2"></i>
+              <i class="fa-brands fa-youtube me-2"></i>
+            </small>
+          </div> 
+        </div>      
+        <div class="row d-sm-block d-md-none"> 
+          <div class="col-lg-11 col-sm-12 d-flex flex-lg-row justify-content-center p-1">
+            <small>
+              <i class="fa-brands fa-square-facebook me-2"></i>
+              <i class="fa-brands fa-instagram me-2"></i>
+              <i class="fa-brands fa-twitter me-2"></i>
+              <i class="fa-regular fa-envelope me-2"></i>
+              <i class="fa-brands fa-linkedin me-2"></i>
+              <i class="fa-brands fa-youtube me-2"></i>
+            </small>
+          </div> 
+        </div>
+      </div>
+      <!-- nav section -->
+      <div id="navbar">
+        <nav class="navbar navbar-expand-lg p-2" id="navbar">
+          <div class="container-fluid" style="padding-left: 10%;">
+            <!-- logo -->
+            <a class="navbar-brand fs-2 fw-bold" href="#" >Emploi Dakar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" id="main_nav">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <!-- search icon -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link 
+                  text-dark border-end" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-search text-secondary"></i>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item d-flex" href="#">
+                        <input type="search" class="border border-light" placeholder="Rechercher">
+                        <div class="bg-dark d-flex align-items-center justify-content-center hidded-loop-style">
+                            <i class="fas fa-search text-white"></i>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </li> 
+                <!-- link -->
+                <li class="nav-item">
+                  <a class="nav-link border-end pe-2 text-dark" aria-current="page" href="#">Offres d'emploi</a>
+                </li>
+                <!-- link -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-dark border-end" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Recruteurs
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Publier une offre</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Gérer mes offres</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Accéder à la CVthèque</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Packs & tarifs de publication</a></li>
+                  </ul>
+                </li> 
+                <!-- link -->         
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-dark border-end" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Candidats
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Modèle de CV</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Lettres de motivation</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Mes alertes emploi</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Actualités emploi</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Candidature spontanée</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Bourses et concours</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Entrepreneuriat</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Recrutement Afrique</a></li>
+                  </ul>
+                </li>
+                <!-- link -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Formation
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Formations en français</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Free online courses</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Certifications</a></li>
+                  </ul>
+                </li>
+                <button type="button" class="rounded-pill publish-button">Publier une offre d'emploi</button>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+      
+      <!-- banner -->
+      <div id="banner" class="container-fluid">
+        <!-- banner text -->
+        <div class="row align-items-center h-100">
+          <div id="banner-text" class="col-md-5 bg-white p-4 rounded m-md-5">
+            <h2 id="banner-title">Trouver un emploi à la hauteur de vos ambitions</h2>
+            <small class="text-secondary">
+              Faites-vous recruter dès aujourd'hui !<br>
+              Des centaines d'offres d'emploi et stages vous attendent...
+            </small>
+            <br>
+            <br>
+            <a href="drop.html" style="text-decoration: none;">
+              <button id="button-offres" class="p-2 h4" href="#">Voir toutes les offres d'emploi</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Swiper section -->
+    <div class="swiper mySwiper my-5">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/giz.jpg" alt="" srcset=""></div>
+        <div class="swiper-slide"><img src="img/trip.png" alt="" srcset=""></div>
+        <div class="swiper-slide"><img src="img/wave.png" alt="" srcset=""></div>
+        <div class="swiper-slide"><img src="img/paul josé.png" alt="" srcset=""></div>
+        <div class="swiper-slide"><img src="img/elite.jfif" alt="" srcset=""></div>
+        <div class="swiper-slide"><img src="img/berger.jfif" alt="" srcset=""></div>
+        <div class="swiper-slide"><img src="img/African_Development_Foundation_logo.svg.png" alt="" srcset=""></div>
+        <div class="swiper-slide"><img src="img/phoenix.png" alt="" srcset=""></div>
+      </div>
+      <div class="swiper-button-next" style="color: black;"></div>
+      <div class="swiper-button-prev"  style="color: black;"></div>
+    </div>
+    <!-- services section -->
+      <!-- title -->
+    <div id="title-optimizer-container">
+      <h4 id="title-optimizer">Optimisez vos chances de recrutement</h4>
+    </div>
+      <!-- text -->
+    <h5 class="text-secondary text-center text-optimizer">Décrochez jusqu’à trois fois plus d’entretiens d’embauche avec nos services totalement gratuits.</h5>
+      <!-- content -->
+    <div class="container-fluid text-center my-5">
+      <!-- cards -->
+      <div class="row justify-content-center">
+        <!-- card -->
+        <div class="cards col-lg-3">
+          <div class="card-image">
+            <i class="fa fa-address-book fa-3x" aria-hidden="true" style="color: black"></i>
+          </div>
+          <div class="card-text">
+            <p>Postuler en un click</p> 
+            <span>
+              Trouver le poste qui vous correspond et postulez
+              <br> 
+              en un click gratuitement avec votre CV en ligne</span> 
+          </div>
+        </div>
+        <!-- card -->
+        <div class="cards col-lg-3">
+          <div class="card-image">
+              <i class="far fa-comment-alt fa-3x" style="color: black"></i></i>
+          </div>
+          <div class="card-text">
+            <p>Soyez le premier</p> 
+            <span>
+              Recevez les meilleurs opportunités par mail 
+              <br>
+              selon la fréquence que vous avez choisie</span> 
+          </div>
+        </div>
+        <!-- card -->
+        <div class="cards col-lg-3">
+          <div class="card-image">
+            <i class="fa-solid fa-book fa-3x" style="color: black"></i>
+          </div>
+          <div class="card-text">
+            <p>Faites-vous chasser</p> 
+            <span>
+              Déposez gratuitement votre CV et attirer
+              <br>
+              l'attention de certains recruteurs de la plateforme</span> 
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- publish section -->
+      <!-- title -->
+    <div id="title-optimizer-container">
+      <h4 id="title-optimizer">Publiez vos offres d'emploi sur le site de recrutement n°1 au Sénégal</h4>
+    </div>
+    <!-- content-->
+    <div class="container-fluid mb-5" id="publish-section">
+      <div class="row justify-content-center align-items-center p-2">
+        <!-- image -->
+        <div class="col-md-5 col-sm-6"><img src="img/publish.jpeg" alt="" class="publish-img"srcset=""></div>
+        <!-- text -->
+        <div class="col-md-5 col-sm-6 item-2">
+          <p class="h4">Vous êtes à la recherche de votre prochaine recrue ?</p>
+          <small>
+            Laissez Emploi Dakar vous trouver les talents les plus pertinents pour vos projets. Gérez vos offres d’emploi, triez les candidature reçues, pré-sélectionnez les meilleurs CV, contactez les candidats directement depuis votre tableau de bord.
+          </small>
+          <br>
+          <button id="button-offres" class="p-2 h6 mt-2" href="#">Publier une offre d'emploi</button>
+        </div>
+      </div>
+    </div>
+    <!-- actualités section -->
+      <!-- title -->
+      <div id="title-optimizer-container">
+        <h4 id="title-optimizer">Actualités Emploi</h4>
+      </div>
+        <!-- text -->
+      <h5 class="text-secondary text-center text-optimizer mb-5">Retrouvez les dernières actualités et tendances Emploi, Recrutement au Sénégal.</h5>
+        <!-- content -->
+          <!-- container -->
+      <div class="container-fluid mb-5" id="actualite-section-content">
+        <!-- items -->
+          <!-- row -->
+        <div class="row justify-content-around">
+          <!-- item -->
+            <!-- column -->
+          <div class="col-lg-3 col-md-4 col-sm-4 position-relative p-0">
+              <!-- content -->
+                <!-- image -->
+            <div class="actualite-section-items-image w-100 p-0 h-75">
+              <img src="img/actualite-1.jpg" alt="" class="w-100 h-100">
+            </div>
+                <!-- text -->
+                  <!-- row -->
+            <div class="row">
+                    <!-- column -->
+              <div class="actualite-section-items-text p-3 text-center col-lg-10 col-md-11 col-sm-11 position-absolute top-100 start-50 translate-middle">
+                      <!-- class -->
+                <small>ACTUALITÉS EMPLOI</small>
+                      <!-- title -->
+                <h5>Liste des Candidats Retenus Recrutement Fonction Publique 2022</h5>
+                <small>6 septembre 2022</small>
+                      <!-- underline -->
+                      <div class="d-flex justify-content-center w-100">
+                        <hr class="">
+                      </div>
+                      <!-- description -->
+                <small>les candidats retenus pour un recrutement dans la Fonction publique par la Commission nationale de Recrutement des Agents de l'État [...] </small>      
+              </div>
+            </div>  
+          </div>
+          <!-- item -->
+            <!-- column -->
+          <div class="col-lg-3 col-md-4 col-sm-4 position-relative p-0">
+              <!-- content -->
+                <!-- image -->
+            <div class="actualite-section-items-image w-100 p-0 h-75">
+              <img src="img/actualite-2.jpg" alt="" class="w-100 h-100">
+            </div>
+                <!-- text -->
+                  <!-- row -->
+            <div class="row">
+                    <!-- column -->
+              <div class="actualite-section-items-text p-3 text-center col-lg-10 col-md-11 col-sm-11 position-absolute top-100 start-50 translate-middle">
+                      <!-- class -->
+                <small>ACTUALITÉS EMPLOI FORMATION GRATUITE EN LIGNE</small>
+                      <!-- title -->
+                <h5>Les 7 Meilleurs MOOC Gestion de Projet (Formation Gratuite)</h5>
+                <small>6 septembre 2022</small>
+                      <!-- underline -->
+                      <div class="d-flex justify-content-center w-100">
+                        <hr class="">
+                      </div>
+                      <!-- description -->
+                <small>Vous souhaitez acquérir de nouvelles compétences ou approfondir vos acquis? Nous avons compliqués pour vous les meilleurs MOOC et [...]</small>      
+              </div>
+            </div>  
+          </div>
+          <!-- item -->
+            <!-- column -->
+          <div class="col-lg-3 col-md-4 col-sm-4 position-relative p-0">
+              <!-- content -->
+                <!-- image -->
+            <div class="actualite-section-items-image w-100 p-0 h-75">
+              <img src="img/actualite-3.png" alt="" class="w-100 h-100">
+            </div>
+                <!-- text -->
+                  <!-- row -->
+            <div class="row">
+                    <!-- column -->
+              <div class="actualite-section-items-text p-3 text-center col-lg-10 col-md-11 col-sm-11 position-absolute top-100 start-50 translate-middle">
+                      <!-- class -->
+                <small>ACTUALITÉS EMPLOI MODÉLE DE CV</small>
+                      <!-- title -->
+                <h5>Liste des Candidats Retenus Recrutement Fonction Publique 2022</h5>
+                <small>30 Août 2022</small>
+                      <!-- underline -->
+                      <div class="d-flex justify-content-center w-100">
+                        <hr class="">
+                      </div>
+                      <!-- description -->
+                <small>Vous êtes un étudiant ou jeune diplomé à la recherche d'un emploi ou stage ? Nos consultant en recrutement vous[...] </small>      
+              </div>
+            </div>  
+          </div>
+        </div>
+      </div>
+     <!-- footer section -->    
+      <!-- container -->
+      <footer class="container-fluid " id="footer">
+        <!-- top footer -->
+          <!-- content -->  
+            <!-- row -->
+        <div class="row justify-content-center p-3" id="top-footer">
+              <!-- column -->
+              <div class="col-md-8 d-flex align-items-center">
+                <h6 class="text-white">Abonnez-vous pour recevoir les meilleures opportunités d’emploi, stages, formations et financement par mail.</h6>
+              </div>
+              <!-- column -->
+              <div class="col-md-2">
+                <div class="text-white  text-center border-white border rounded-pill">
+                  Je m'abonne
+                </div>
+              </div>
+        </div>
+        <!-- middle footer -->
+          <!-- content -->
+            <!-- row -->
+        <div class="row justify-content-center text-white" id="middle-footer">
+              <!-- column -->
+              <div class="col-md-3">
+                <h5 class="">Emploi Dakar</h5>
+                <hr>  
+                <p>EmploiDakar.com, site de recrutement & carrière leader au Sénégal, est le point de passage quotidien pour les recruteurs et les candidats à l’emploi du Sénégal, de la sous-région et de la diaspora.</p>
+              </div>
+              <!-- column -->
+              <div class="col-md-2">
+                <h5 class="">EmploiDakar.com</h5>
+                <hr>
+                <a href="#" class="text-decoration-none text-white"><h6>À propos</h6></a>
+                <a href="#" class="text-decoration-none text-white"><h6>Nous Contacter</h6></a>
+                <a href="#" class="text-decoration-none text-white"><h6>CGU</h6></a>
+                <a href="#" class="text-decoration-none text-white"><h6>Tarifs de publication</h6></a>
+              </div>
+              <!-- column -->
+              <div class="col-md-2">
+                <h5 class="">Astuces Carrières</h5>
+                <hr>
+                <a href="#" class="text-decoration-none text-white"><h6>Formations</h6></a>
+                <a href="#" class="text-decoration-none text-white"><h6>Modèles de CV</h6></a>
+                <a href="#" class="text-decoration-none text-white"><h6>CV Professionnels</h6></a>
+                <a href="#" class="text-decoration-none text-white"><h6>Candidatures Spontanées</h6></a>
+              </div>
+              <!-- column -->
+              <div class="col-md-2">
+                <h5 class="">Boite à Outils</h5>
+                <hr>
+                <a href="#" class="text-decoration-none text-white"><h6>Lettre de Motivation</h6></a>
+                <a href="#" class="text-decoration-none text-white"><h6>Mes Alertes Emploi</h6></a>
+                <a href="#" class="text-decoration-none text-white"><h6>Actualité Emploi</h6></a>
+                <a href="#" class="text-decoration-none text-white"><h6>Bourses & Concours</h6></a>
+              </div>
+        </div>
+        <!-- bottom footer -->
+          <!-- content -->
+            <!-- row -->  
+        <div class="row p-3 justify-content-center" id="bottom-footer">
+                <!-- column -->
+          <div class="col-md-8 d-flex justify-content-between flex-wrap">
+                  <a href="#" class="text-decoration-none "><small>Publier une Offre d’Emploi</small></a>
+                  <a href="#" class="text-decoration-none "><small>Actualités Emploi</small></a>
+                  <a href="#" class="text-decoration-none "><small>Formation</small></a>
+                  <a href="#" class="text-decoration-none "><small>Fiches Métier</small></a>
+                  <a href="#" class="text-decoration-none "><small>Conseils Carrière</small></a>
+          </div>
+                <!-- column -->
+          <div class="col-md-8">
+                  <hr>
+          </div>              
+                <!-- column -->
+          <div class="col-md-8 d-flex justify-content-center">
+            <small>Copyright 2022 - EmploiDakar.com &copy; . Tous droits réservés.</small>
+          </div>
+        </div>
+      </footer>
+      <!-- javascript section -->
+      <!-- sticky navbar functionnality js -->
+    <script>
+      window.onscroll = function() {myFunction()};
+      
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
+      <!-- Swiperjs link js-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+      <!-- Swiper functionality js-->
+    <script>
+          var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 4,
+            loop: true,
+            cssMode: true,
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+              el: ".swiper-pagination",
+            },
+            mousewheel: true,
+            keyboard: true,
+          });
+    </script>
+    </script>
+      <!-- bootstrap javascrip -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
