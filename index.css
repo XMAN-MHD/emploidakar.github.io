@@ -213,7 +213,7 @@ i
 /* footer section */
 footer 
 {
-  margin-top: 100px;
+  margin-top: 300px;
   background-color: rgb(119, 119, 119);
 }
 #top-footer
@@ -283,7 +283,7 @@ footer
   }
   footer 
   {
-    margin-top: 100px;
+    margin-top: 200px;
   }
 
 }
@@ -306,7 +306,7 @@ footer
     }
     footer 
     {
-      margin-top: 100px;
+      margin-top: 200px;
     }
 
 }
