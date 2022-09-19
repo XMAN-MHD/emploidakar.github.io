@@ -11,7 +11,7 @@
     <!-- font awesome icon cdn-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
     <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="lib/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="../lib/swiper-bundle.min.css"/>
     <!-- title of the page -->
     <title>Emploi Dakar : Offre d'Emploi au Sénégal - Offre d'Emploi à Dakar</title>
   </head>
@@ -56,7 +56,7 @@
         <nav class="navbar navbar-expand-lg p-2" id="navbar">
           <div class="container-fluid" style="padding-left: 10%;">
             <!-- logo -->
-            <a class="navbar-brand fs-2 fw-bold" href="index.html" >Emploi Dakar</a>
+            <a class="navbar-brand fs-2 fw-bold" href="../index.html" >Emploi Dakar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -82,7 +82,7 @@
                 </li> 
                 <!-- link -->
                 <li class="nav-item">
-                  <a class="nav-link border-end pe-2 text-dark" aria-current="page" href="offre-demploi-au-senegal/index.html">Offres d'emploi</a>
+                  <a class="nav-link border-end pe-2 text-dark" aria-current="page" href="../offre-demploi-au-senegal/index.html">Offres d'emploi</a>
                 </li>
                 <!-- link -->
                 <li class="nav-item dropdown">
@@ -135,7 +135,7 @@
                     <li><a class="dropdown-item" href="#">Certifications</a></li>
                   </ul>
                 </li>
-                <button type="button" class="rounded-pill publish-button">Publier une offre d'emploi</button>
+                <button type="button" class="rounded-pill publish-button"><a href="index.html" style="text-decoration: none">Publier une offre d'emploi</a></button>
               </ul>
             </div>
           </div>
@@ -144,7 +144,6 @@
       </div>
     </div>
     <!-- hero section -->
-        <!-- container fluid -->
     <div class="container-fluid" id="hero">
             <!-- row -->
         <div class="row h-100 text-white d-flex flex-column align-items-center justify-content-center">
@@ -153,16 +152,98 @@
         </div>
     </div>
     <!-- chiffres d'affaires section -->
-      <!-- container fluid -->
-      <div class="container-fluid" id="chiffres">
+    <div class="container-fluid" id="chiffres">
         <!-- title -->
-        <div id="title-optimizer-container">
-          <h4 id="title-optimizer">Emploi Dakar en chiffres</h4>
+      <div id="title-optimizer-container">
+        <h4 id="title-optimizer">Emploi Dakar en chiffres</h4>
+      </div>
+        <!-- content -->
+      <div class="container-fluid text-center my-5 p-5" id="bg-chiffres">
+          <!-- cards -->
+      <div class="row justify-content-center">
+            <!-- card -->
+        <div class="cards col-lg-3">
+          <div class="card-image">
+            <i class="fa-solid fa-users fa-3x" style="color: black"></i>
+          </div>
+          <div class="card-text">
+            <p>+450.000 visiteurs/mois</p> 
+            <span>
+              Touchez directement votre cible avec une audience de qualité au Sénégal et sa diaspora.
+            </span> 
+          </div>
+        </div><!-- card -->
+        <div class="cards col-lg-3">
+          <div class="card-image">
+            <i class="far fa-comment-alt fa-3x" style="color: black"></i></i>
+          </div>
+          <div class="card-text">
+            <p>+28K Abonnés Newsletter</p> 
+            <span>
+              Nous nous assurons que vos annonces tombent dans la boite mail du bon candidat.
+            </span> 
+          </div>
+        </div>
+            <!-- card -->
+        <div class="cards col-lg-3">
+          <div class="card-image">
+              <i class="fa-brands fa-linkedin fa-3x" style="color: black"></i></i>
+          </div>
+          <div class="card-text">
+            <p>+260.000 Abonnés</p> 
+            <span>
+              Bénéficiez d’une promotion de vos annonces et votre entreprises sur LinkedIn, Facebook, Twitter, etc.
+            </span> 
+          </div>
+        </div>
+            <!-- card -->
+        <div class="cards col-lg-3">
+          <div class="card-image">
+            <i class="fa-solid fa-book fa-3x" style="color: black"></i>
+          </div>
+          <div class="card-text">
+            <p>Assistance 7j/j</p> 
+            <span>
+              Un personnel qualifié à votre écoute pour tout vos besoins en recrutement.
+            </span> 
+          </div>
         </div>
       </div>
-      
+      </div>
+    </div>
+    <!-- Swiper section -->
+    <div class="container-fluid">
+        <!-- title -->
+      <div id="title-optimizer-container">
+        <h4 id="title-optimizer">Vous êtes en bonne compagnie</h4>
+      </div>
+        <!-- content -->
+      <div class="swiper mySwiper my-5">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/giz.jpg" alt="" srcset=""></div>
+          <div class="swiper-slide"><img src="img/trip.png" alt="" srcset=""></div>
+          <div class="swiper-slide"><img src="img/wave.png" alt="" srcset=""></div>
+          <div class="swiper-slide"><img src="img/paul josé.png" alt="" srcset=""></div>
+          <div class="swiper-slide"><img src="img/elite.jfif" alt="" srcset=""></div>
+          <div class="swiper-slide"><img src="img/berger.jfif" alt="" srcset=""></div>
+          <div class="swiper-slide"><img src="img/African_Development_Foundation_logo.svg.png" alt="" srcset=""></div>
+          <div class="swiper-slide"><img src="img/phoenix.png" alt="" srcset=""></div>
+        </div>
+        <div class="swiper-button-next" style="color: black;"></div>
+        <div class="swiper-button-prev"  style="color: black;"></div>
+      </div>
+    </div>
+    <!-- tarif section -->
+    <div class="container-fluid" id="hero2">
+      <!-- row -->
+      <div class="row h-100 text-white d-flex flex-column align-items-center justify-content-center">
+        <h2 class="col-md-8 display-6 text-center">Tarifs de publication</h2>
+        <p class="col-md-6 text-center">Payez en toute sécurité par virement bancaire, PayPal, Services de transfert d’argent (Wave, OrangeMoney, FreeMoney, Western Union,…)</p>
+        <p class="col-md-6 text-center">Pour toute information complémentaire, merci de contacter le service commercial au +221 77 470 20 21 ou par email  l’adresse contact@emploidakar.com.</p>
+        
+      </div>
+    </div>  
     <!-- footer section -->    
-      <!-- container -->
       <footer class="container-fluid " id="footer">
         <!-- top footer -->
           <!-- content -->  
@@ -239,7 +320,7 @@
           </div>
         </div>
       </footer>
-      <!-- javascript section -->
+    <!-- javascript section -->
       <!-- sticky navbar functionnality js -->
     <script>
       window.onscroll = function() {myFunction()};
@@ -257,7 +338,6 @@
     </script>
       <!-- Swiperjs link js-->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
       <!-- Swiper functionality js-->
     <script>
           var swiper = new Swiper(".mySwiper", {
@@ -274,7 +354,6 @@
             mousewheel: true,
             keyboard: true,
           });
-    </script>
     </script>
       <!-- bootstrap javascrip -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>

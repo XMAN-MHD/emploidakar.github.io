@@ -39,6 +39,10 @@ i
 {
     color:rgb(9, 113, 176)
 }
+#navbar button a:hover 
+{
+  color: white;
+}
 .hidded-loop-style
 {
     width: 30px;

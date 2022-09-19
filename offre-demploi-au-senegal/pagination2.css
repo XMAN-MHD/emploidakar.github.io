@@ -52,6 +52,10 @@
       background-color: #0693e3;
       color: white;
   }
+  #navbar button a:hover 
+  {
+    color: white;
+  }
   
   /* banner section */
   #banner
