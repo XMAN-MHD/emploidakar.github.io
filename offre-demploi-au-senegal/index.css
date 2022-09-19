@@ -1,0 +1,19 @@
+/* formulaire section */
+#formulaire .title 
+{
+    font-size: 30px;
+    color: rgb(85,85,85);
+}
+#formulaire .subheading small
+{
+    width: 100%;
+    color: rgb(85,85,85);
+}
+#formulaire #form-inputs
+{
+  background-color: rgb(0, 146, 204);
+}
+#formulaire #form-checkboxes
+{
+  background-color: #F8F8FF;
+}
