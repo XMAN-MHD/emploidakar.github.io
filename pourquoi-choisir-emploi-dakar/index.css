@@ -8,10 +8,63 @@
 {
     background-color: rgb(0,45,69);
     height: 350px;
-    margin: 100px 0;
 }
 /* chiffres section */
 #bg-chiffres
 {
     background-color: rgb(241, 241, 241);
+}
+/* pricing section */
+#pricing
+{
+    background-color: rgb(241, 241, 241);
+}
+#pricing .title
+{
+    background-color: rgb(250, 250, 250);
+}
+#pricing button
+{
+    width: 200px;
+    padding: 5px;
+    margin-top: 15px;
+    background-color: rgb(9, 113, 176);
+    color: white;
+    border: 1px solid rgb(9, 113, 176);
+}
+#pricing .goldCard .titre
+{
+    background-color: rgb(9, 113, 176);
+    color: white;  
+}
+#pricing hr
+{
+    width: 50%;
+    margin: 10px auto;
+}
+#pricing .col-md-3
+{
+    height: 520px;
+    width: 280px;
+    margin: 10px;
+}
+#pricing .cursorHover:hover
+{
+    box-shadow: 0 5px 25px rgb(1 1 1 / 10%);
+}
+#bottom-text
+{
+    background-color: rgb(241, 241, 241);
+}
+#bottom-text span
+{
+    color: rgb(9, 113, 176);
+}
+#hero2 button 
+{
+    color: white;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(9, 113, 176);
+    border: none;
 }
