@@ -33,7 +33,7 @@ i
 }
 .navbar-brand
 {
-    color:rgb(9, 113, 176)
+    color:#0693e3
 }
 .navbar-brand:hover
 {
@@ -47,11 +47,11 @@ i
 {
     background-color: white;
     color: rgb(9, 113, 176);
-    border: 1px solid rgb(9, 113, 176);
+    border: 1px solid #0693e3;
 }
 .publish-button:hover 
 {
-    background-color: rgb(9, 113, 176);
+    background-color: #0693e3;
     color: white;
 }
 
@@ -66,9 +66,9 @@ i
 }
 #button-offres
 {
-    background-color: rgb(9, 113, 176);
+    background-color: #0693e3;
     color: white;
-    border: 1px solid rgb(9, 113, 176);
+    border: 1px solid #0693e3;
     text-decoration: none;
 }
 #banner-title

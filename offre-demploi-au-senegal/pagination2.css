@@ -31,7 +31,7 @@
   }
   .navbar-brand
   {
-      color:rgb(9, 113, 176)
+      color:#0693e3
   }
   .navbar-brand:hover
   {
@@ -44,12 +44,12 @@
   .publish-button
   {
       background-color: white;
-      color: rgb(9, 113, 176);
-      border: 1px solid rgb(9, 113, 176);
+      color: #0693e3;
+      border: 1px solid #0693e3;
   }
   .publish-button:hover 
   {
-      background-color: rgb(9, 113, 176);
+      background-color: #0693e3;
       color: white;
   }
   
@@ -64,9 +64,9 @@
   }
   #button-offres
   {
-      background-color: rgb(9, 113, 176);
+      background-color: #0693e3;
       color: white;
-      border: 1px solid rgb(9, 113, 176);
+      border: 1px solid #0693e3;
       text-decoration: none;
   }
   #banner-title
@@ -209,7 +209,13 @@
     color: #f78da7;
 }
 
-
+/* other links section */
+#other-links li 
+{
+    display: block;
+    color: #0693e3;
+    cursor: pointer;
+}
 
 /* footer section */
 footer 
