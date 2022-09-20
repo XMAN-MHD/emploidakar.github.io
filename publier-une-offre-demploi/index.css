@@ -3,3 +3,10 @@
 {
     font-size: 26px;
 }
+#formText button
+{
+    background-color: rgb(9, 113, 176);
+    border: none;
+    color: #fff;
+    padding: 5px;
+}
