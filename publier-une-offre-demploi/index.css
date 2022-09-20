@@ -1,12 +1,54 @@
 /* top form */
-#formText .title
+#formulaire .title
 {
     font-size: 26px;
 }
-#formText button
+#formulaire button
 {
     background-color: rgb(9, 113, 176);
     border: none;
     color: #fff;
     padding: 5px;
+}
+#formulaire input 
+{
+    width: 100%;
+    border: 1px solid rgb(169,184,195);
+    padding: 2px;
+}
+#formulaire select 
+{
+    width: 100%;
+    border: 1px solid rgb(169,184,195);
+    height: 50px;
+}
+#formulaire input[type="textarea"] 
+{
+    width: 100%;
+    border: 1px solid rgb(169,184,195);
+    height: 150px;
+}
+#formulaire input[type="file"] 
+{
+    border: none;
+}
+.publishBtn
+{
+    width: 100px;
+    background-color: rgb(9, 113, 176);
+    border: none;
+    color: #fff;
+    padding: 5px;
+}
+.greenBtn
+{
+    
+    background-color: rgb(113,206,126);
+    border: none;
+    color: #fff;
+    padding: 5px;
+}
+.contact
+{
+    color: rgb(9, 113, 176);
 }

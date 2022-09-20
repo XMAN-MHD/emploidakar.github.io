@@ -142,8 +142,8 @@
         </nav>
       </div>
     </div>
-    <!-- text section -->
-    <div class="container" id="formText">
+    <!-- form section -->
+    <div class="container" id="formulaire">
         <hr>
         <!-- title -->
         <p class="title">Publier une Offre d’Emploi</p>
@@ -160,8 +160,306 @@
                 Si vous n’avez pas encore de compte vous pouvez en créer un ci-dessous en saisissant
                 votre adresse e-mail ou identifiant.
             </div>
+        </div> 
+        <hr>
+        <!-- row -->
+        <div class="row">
+            <!-- column -->
+            <div class="col-md-6 col-sm-8">
+                <b>Votre adresse e-mail</b>
+            </div>
+            <!-- column -->
+            <div class="col-md-6 col-sm-8">
+                <input type="text" placeholder="you@yourdomaine.com">
+            </div>
+        </div> 
+        <hr>
+         <!-- row -->
+        <div class="row">
+            <!-- column -->
+            <div class="col-md-6 col-sm-8">
+                <b>Mot de passe</b>
+            </div>
+            <!-- column -->
+            <div class="col-md-6 col-sm-8">
+                <input type="text">
+            </div>
         </div>
+        <div class="row littleText justify-content-end mt-2">
+          <small class="col-6">Les mots de passe doivent comporter au moins 8 caractères.</small>
+        </div>
+        <hr>
+         <!-- row -->
+        <div class="row">
+            <!-- column -->
+            <div class="col-md-6 col-sm-8">
+                <b>Vérifier le mot de passe</b>
+            </div>
+            <!-- column -->
+            <div class="col-md-6 col-sm-8">
+                <input type="text">
+            </div>
+        </div>
+        <hr>
+         <!-- row -->
+        <div class="row">
+            <!-- column -->
+            <div class="col-md-6 col-sm-8">
+                <b>Titre du poste</b>
+            </div>
+            <!-- column -->
+            <div class="col-md-6 col-sm-8">
+                <input type="text">
+            </div>
+        </div>
+        <hr>
+         <!-- row -->
+        <div class="row">
+            <!-- column -->
+            <div class="col-md-6 col-sm-8">
+                <b>Localisation</b><small class="muted">(optionnel)</small>
+            </div>
+            <!-- column -->
+            <div class="col-md-6 col-sm-8">
+                <input type="text" placeholder="par exemple «3, Rue Kaolack, Point E, Dakar »">
+            </div>
+        </div>
+        <div class="row littleText justify-content-end mt-2">
+          <small class="col-6">Laissez vide si l’offre peut être pourvue depuis n’importe où (ex : télétravail)</small>
+        </div>
+        <hr>
+        <!-- row -->
+        <div class="row">
+          <!-- column -->
+          <div class="col-md-6 col-sm-8">
+              <b>Emploi en distanciel</b><small class="muted">(optionnel)</small>
+          </div>
+          <!-- column -->
+          <div class="col-md-6 col-sm-8">
+              <input type="checkbox">
+          </div>
+        </div>
+        <div class="row littleText justify-content-end mt-2">
+          <small class="col-6">Select if this is a remote position.</small>
+        </div>
+        <hr>
+        <!-- row -->
+        <div class="row">
+          <!-- column -->
+          <div class="col-md-6 col-sm-8">
+              <b>Type du poste</b>
+          </div>
+          <!-- column -->
+          <div class="col-md-6 col-sm-8">
+            <select name="" id="">
+              <option value="">Choisir le type de poste...</option>
+              <option value="">CDD</option>
+              <option value="">CDI</option>
+              <option value="">Stage</option>
+            </select>
+          </div>
+        </div>
+        <hr>
+        <!-- row -->
+        <div class="row">
+          <!-- column -->
+          <div class="col-md-6 col-sm-8">
+              <b>Catégorie du poste</b>
+          </div>
+          <!-- column -->
+          <div class="col-md-6 col-sm-8">
+            <select name="" id="">
+              <option value="">Choisissez une catégorie...</option>
+              <option value="">Accueil - Réception</option>
+              <option value="">Administration</option>
+              <option value="">Agriculture & Agroalimentaire</option>
+              <option value="">Archives - Documentation</option>
+              <option value="">Audit - Comptabilité</option>
+            </select>
+          </div>
+        </div>
+        <hr>
+        <!-- row -->
+        <div class="row">
+          <!-- column -->
+          <div class="col-md-6 col-sm-8">
+              <b>Description</b>
+          </div>
+          <!-- column -->
+          <div class="col-md-6 col-sm-8">
+            <input type="textarea" name="" value="">
+          </div>
+        </div>
+        <hr>
+        <!-- row -->
+        <div class="row">
+           <!-- column -->
+           <div class="col-md-6 col-sm-8">
+               <b>Email/URL de candidature</b>
+           </div>
+           <!-- column -->
+           <div class="col-md-6 col-sm-8">
+               <input type="text" placeholder="Saisir une adresse courriel ou URL de site">
+           </div>
+        </div>
+        <hr>
+        <!-- row -->
+        <div class="row">
+          <!-- column -->
+          <div class="col-md-6 col-sm-8">
+              <b>Salaire</b><small class="muted">(optionnel)</small>
+          </div>
+          <!-- column -->
+          <div class="col-md-6 col-sm-8">
+              <input type="text" placeholder="e.g. 20000">
+          </div>
+        </div>
+        <!-- title -->
+        <p class="title">Détail de l’entreprise/organisation</p>
+        <hr>
+        <!-- row -->
+        <div class="row">
+          <!-- column -->
+          <div class="col-md-6 col-sm-8">
+              <b>Nom de l’entreprise</b>
+          </div>
+          <!-- column -->
+          <div class="col-md-6 col-sm-8">
+              <input type="text" placeholder="Saisir le nom de l'entreprise">
+          </div>
+        </div>
+        <hr>
+        <!-- row -->
+        <div class="row">
+          <!-- column -->
+          <div class="col-md-6 col-sm-8">
+              <b>Site</b><small class="muted">(optionnel)</small>
+          </div>
+          <!-- column -->
+          <div class="col-md-6 col-sm-8">
+              <input type="text" placeholder="https//">
+        </div>
+        </div>
+        <hr>
+        <!-- row -->
+        <div class="row">
+          <!-- column -->
+          <div class="col-md-6 col-sm-8">
+              <b>Slogan</b><small class="muted">(optionnel)</small>
+          </div>
+          <!-- column -->
+          <div class="col-md-6 col-sm-8">
+              <input type="text" placeholder="Description de l'entreprise">
+          </div>
+        </div>
+        <hr>
+        <!-- row -->
+        <div class="row">
+          <!-- column -->
+          <div class="col-md-6 col-sm-8">
+              <b>logo</b><small class="muted">(optionnel)</small>
+          </div>
+          <!-- column -->
+          <div class="col-md-6 col-sm-8">
+              <input type="file">
+          </div>
+        </div>
+        <div class="row littleText justify-content-end mt-2">
+          <small class="col-6">Taille maximale du fichier : 20 Mo.</small>
+        </div>
+        <hr>
     </div>
+    <!-- buttons section -->
+    <div class="container">
+      <div class="row">
+        <button class="publishBtn col-12">Publier</button>
+      </div>
+      <div class="row justify-content-center m-5">
+        <button class="greenBtn col-5">Consulter nos offres de visibilité</button>
+      </div>
+      <div class="row">
+        <div class="col-12">
+        Pour tout renseignement, merci de vous rapprocher de la direction commerciale à <b class="contact">contact@emploidakar.com</b> ou au +221 77 470 20 21.
+        </div>
+      </div>
+    </div>
+    <!-- footer section -->    
+    <footer class="container-fluid " id="footer">
+        <!-- top footer -->
+          <!-- content -->  
+            <!-- row -->
+        <div class="row justify-content-center p-3" id="top-footer">
+              <!-- column -->
+              <div class="col-md-8 d-flex align-items-center">
+                <h6 class="text-white">Abonnez-vous pour recevoir les meilleures opportunités d’emploi, stages, formations et financement par mail.</h6>
+              </div>
+              <!-- column -->
+              <div class="col-md-2">
+                <div class="text-white  text-center border-white border rounded-pill">
+                  Je m'abonne
+                </div>
+              </div>
+        </div>
+        <!-- middle footer -->
+          <!-- content -->
+            <!-- row -->
+        <div class="row justify-content-center text-white" id="middle-footer">
+              <!-- column -->
+              <div class="col-md-3 m-4">
+                <h5 class="">Emploi Dakar</h5>
+                <hr>  
+                <p>EmploiDakar.com, site de recrutement & carrière leader au Sénégal, est le point de passage quotidien pour les recruteurs et les candidats à l’emploi du Sénégal, de la sous-région et de la diaspora.</p>
+              </div>
+              <!-- column -->
+              <div class="col-md-2 m-4">
+                <h5 class="">EmploiDakar.com</h5>
+                <hr>
+                <a href="#" class="text-decoration-none text-white"><h6>À propos</h6></a>
+                <a href="#" class="text-decoration-none text-white"><h6>Nous Contacter</h6></a>
+                <a href="#" class="text-decoration-none text-white"><h6>CGU</h6></a>
+                <a href="#" class="text-decoration-none text-white"><h6>Tarifs de publication</h6></a>
+              </div>
+              <!-- column -->
+              <div class="col-md-2 m-4">
+                <h5 class="">Astuces Carrières</h5>
+                <hr>
+                <a href="#" class="text-decoration-none text-white"><h6>Formations</h6></a>
+                <a href="#" class="text-decoration-none text-white"><h6>Modèles de CV</h6></a>
+                <a href="#" class="text-decoration-none text-white"><h6>CV Professionnels</h6></a>
+                <a href="#" class="text-decoration-none text-white"><h6>Candidatures Spontanées</h6></a>
+              </div>
+              <!-- column -->
+              <div class="col-md-2 m-4">
+                <h5 class="">Boite à Outils</h5>
+                <hr>
+                <a href="#" class="text-decoration-none text-white"><h6>Lettre de Motivation</h6></a>
+                <a href="#" class="text-decoration-none text-white"><h6>Mes Alertes Emploi</h6></a>
+                <a href="#" class="text-decoration-none text-white"><h6>Actualité Emploi</h6></a>
+                <a href="#" class="text-decoration-none text-white"><h6>Bourses & Concours</h6></a>
+              </div>
+        </div>
+        <!-- bottom footer -->
+          <!-- content -->
+            <!-- row -->  
+        <div class="row p-3 justify-content-center" id="bottom-footer">
+                <!-- column -->
+          <div class="col-md-8 d-flex justify-content-between flex-wrap">
+                  <a href="#" class="text-decoration-none "><small>Publier une Offre d’Emploi</small></a>
+                  <a href="#" class="text-decoration-none "><small>Actualités Emploi</small></a>
+                  <a href="#" class="text-decoration-none "><small>Formation</small></a>
+                  <a href="#" class="text-decoration-none "><small>Fiches Métier</small></a>
+                  <a href="#" class="text-decoration-none "><small>Conseils Carrière</small></a>
+          </div>
+                <!-- column -->
+          <div class="col-md-8">
+                  <hr>
+          </div>              
+                <!-- column -->
+          <div class="col-md-8 d-flex justify-content-center">
+            <small>Copyright 2022 - EmploiDakar.com &copy; . Tous droits réservés.</small>
+          </div>
+        </div>
+    </footer>
     <!-- javascript section -->
       <!-- sticky navbar functionnality js -->
     <script>
